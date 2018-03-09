@@ -1,0 +1,33 @@
+p {
+  margin: 0;
+}
+label {
+  margin: 8px 0px 8px 0px;
+}
+.flexbox {
+  display: flex; 
+  justify-content: space-between;
+  flex-flow: column wrap;
+}
+
+.item {
+  flex: 0 0;
+  margin: 0px px 6px 0px;
+}
+.submit-btn {
+  margin: 5px 0px 5px 325px;
+}
+.small {
+  width: 80px;
+}
+.large {
+  width: 400px;
+  height: 100px;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+  margin-right: 50%;
+}
