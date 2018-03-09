@@ -9,7 +9,7 @@ describe('TextwrapService', () => {
     });
   });
 
-  it('should be created', inject([TextwrapService], (service: TextwrapService) => {
+  it('should create the service TextWrap', inject([TextwrapService], (service: TextwrapService) => {
     expect(service).toBeTruthy();
   }));
   it('Deve fazer wrap nos textos', inject([TextwrapService], (service: TextwrapService) => {
